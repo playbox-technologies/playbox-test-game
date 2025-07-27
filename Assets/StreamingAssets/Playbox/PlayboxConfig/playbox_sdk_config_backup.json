@@ -1,0 +1,27 @@
+{
+  "AppsFlyer": {
+    "ios_key": "6hieQZRL8thNKtg5eGybWR",
+    "android_key": "6hieQZRL8thNKtg5eGybWR",
+    "active": true,
+    "ios_app_Id": "id6743711998",
+    "android_app_Id": "world.dreamsim.ragstoriches"
+  },
+  "DevToDev": {
+    "ios_key": "2df6d5e0-7014-024c-a40e-b44ac98a280d",
+    "android_key": "df4202db-9522-0c18-a5d2-d98ba32380dd",
+    "active": true,
+    "LOGLevel": 5
+  },
+  "AppLovin": {
+    "ios_key": "1802223f07c92cc4",
+    "android_key": "40ab782ace3aef39",
+    "advertisementSdk": "W47BZfBHkBLCrKFZLmLMX2HpZ_i6hy3L3De3lkVDQpPcbno9803a4TG6eHPoPfEcw33Bh46uByQJr5Wr7AykhR",
+    "active": true
+  },
+  "FacebookSdk": {
+    "AppLabel": "Rags to Riches",
+    "AppID": "675727888370178",
+    "ClientToken": "ca16c57e9a81b61b7dde51065b431861",
+    "active": false
+  }
+}
