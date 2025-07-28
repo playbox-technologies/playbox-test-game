@@ -402,7 +402,7 @@
       "url": "https://packages.unity.com"
     },
     "playbox": {
-      "version": "https://github.com/dreamsim-dev/PlayboxSdk.git#main",
+      "version": "https://github.com/playbox-technologies/playbox-sdk.git#main",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -412,7 +412,16 @@
         "com.google.ads.mobile": "10.2.0",
         "com.unity.ads.ios-support": "1.0.0"
       },
-      "hash": "3c8c377a5db1e626f4baaed4fec0cc80e41967a5"
+      "hash": "cb3097875663118f9ce611b903ea02dc20bab609"
+    },
+    "playbox-installer": {
+      "version": "https://github.com/playbox-technologies/playbox-installer.git#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "b5f75a12f8dc4a20bae472ad61c51f71d5d9d797"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
