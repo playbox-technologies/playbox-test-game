@@ -402,7 +402,7 @@
       "url": "https://packages.unity.com"
     },
     "playbox": {
-      "version": "https://github.com/playbox-technologies/playbox-sdk.git#main",
+      "version": "https://github.com/playbox-technologies/playbox-sdk.git#dev_validator",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -412,7 +412,7 @@
         "com.google.ads.mobile": "10.2.0",
         "com.unity.ads.ios-support": "1.0.0"
       },
-      "hash": "cb3097875663118f9ce611b903ea02dc20bab609"
+      "hash": "d114d7c4fa40c0945a02a90642dfa24fbe12a05c"
     },
     "playbox-installer": {
       "version": "https://github.com/playbox-technologies/playbox-installer.git#main",
