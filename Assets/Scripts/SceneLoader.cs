@@ -1,12 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
+using InspectorButton;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-   public void loadScene(string sceneName)
+   [SerializeField]
+   private AssetReference loadedScene;
+
+   private void Start()
    {
-      SceneManager.LoadScene(sceneName);
+      Debug.Log(loadedScene.SubObjectName);
    }
+
+   public void loadScene()
+   {
+      Debug.Log("loading scene");
+      
+      loadedScene.LoadSceneAsync(LoadSceneMode.Single,true);
+   }
+   
 }

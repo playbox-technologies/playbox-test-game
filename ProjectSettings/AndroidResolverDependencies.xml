@@ -40,8 +40,8 @@
     <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-crashlytics-unity/12.8.0/firebase-crashlytics-unity-12.8.0.pom</file>
   </files>
   <settings>
-    <setting name="androidAbis" value="armeabi-v7a" />
-    <setting name="bundleId" value="world.dreamsim.ragstoriches" />
+    <setting name="androidAbis" value="arm64-v8a" />
+    <setting name="bundleId" value="world.dreamsim.testapp" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="True" />
