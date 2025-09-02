@@ -597,12 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1637cf0797f7747a2f6ad25d82e749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadedScene:
-    m_AssetGUID: 2cda990e2423bbf4892e6590ba056729
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_SubObjectGUID: 
-    m_EditorAssetChanged: 0
+  loadedScene: Game
 --- !u!114 &1018147487
 MonoBehaviour:
   m_ObjectHideFlags: 0
