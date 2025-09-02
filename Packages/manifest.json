@@ -7,7 +7,6 @@
     "com.google.ads.mobile": "10.3.0",
     "com.google.external-dependency-manager": "1.2.186",
     "com.playbox.facebooksdk": "https://github.com/playbox-technologies/playbox-dependenties.git?path=facebook-sdk#main",
-    "com.unity.addressables": "2.6.0",
     "com.unity.ads.ios-support": "1.0.0",
     "com.unity.cinemachine": "3.1.4",
     "com.unity.collab-proxy": "2.8.2",
