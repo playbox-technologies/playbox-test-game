@@ -412,7 +412,7 @@
       }
     },
     "playbox": {
-      "version": "https://github.com/playbox-technologies/playbox-sdk.git",
+      "version": "https://github.com/playbox-technologies/playbox-sdk.git#dev_validator",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -422,7 +422,7 @@
         "com.google.ads.mobile": "10.2.0",
         "com.unity.ads.ios-support": "1.0.0"
       },
-      "hash": "e401a24684738dbdea18d71e181c6a5dbb6ec6f6"
+      "hash": "cf12cc7265ab9ca1d959db47177fea40b331ee5a"
     },
     "playbox-installer": {
       "version": "https://github.com/playbox-technologies/playbox-installer.git#main",
