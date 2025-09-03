@@ -435,7 +435,7 @@ MonoBehaviour:
   ConsentDependency: 0
   isAutoInitialize: 1
   useInAppValidation: 1
-  isDebugSplash: 0
+  isDebugSplash: 1
   usePlayboxIAP: 0
   OnPostInitializatioon:
     m_PersistentCalls:
