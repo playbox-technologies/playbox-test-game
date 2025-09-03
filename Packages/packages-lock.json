@@ -422,7 +422,7 @@
         "com.google.ads.mobile": "10.2.0",
         "com.unity.ads.ios-support": "1.0.0"
       },
-      "hash": "5d843ab3355da577de8c7177ca38e2226dcde46e"
+      "hash": "763c7b0e8a40ac5211a15c2d22d32422acfa5d4a"
     },
     "playbox-installer": {
       "version": "https://github.com/playbox-technologies/playbox-installer.git#main",
