@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -12,8 +13,30 @@ public class SceneLoader : MonoBehaviour
    [SerializeField]
    Slider slider;
    
-   AsyncOperation asyncOperation;
+   [SerializeField]
+   UnityEvent<string> consoleOutputError;
    
+   [SerializeField]
+   UnityEvent<string> consoleOutputLog;
+   
+   AsyncOperation asyncOperation;
+
+   private void OnEnable()
+   {
+       Application.logMessageReceivedThreaded += (condition, trace, type) =>
+       {
+           if (type == LogType.Error || type == LogType.Exception || type == LogType.Assert)
+           {
+               consoleOutputError?.Invoke(trace);
+           }
+
+           if (type == LogType.Log)
+           {
+               consoleOutputLog?.Invoke(trace);
+           }
+       };
+   }
+
    public void loadScene()
    {
       Debug.Log("loading scene");
