@@ -27,12 +27,12 @@ public class SceneLoader : MonoBehaviour
        {
            if (type == LogType.Error || type == LogType.Exception || type == LogType.Assert)
            {
-               consoleOutputError?.Invoke(trace);
+               consoleOutputError?.Invoke(condition);
            }
 
            if (type == LogType.Log)
            {
-               consoleOutputLog?.Invoke(trace);
+               consoleOutputLog?.Invoke(condition);
            }
        };
    }
