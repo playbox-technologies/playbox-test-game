@@ -1,0 +1,31 @@
+{
+  "AppsFlyer": {
+    "ios_key": "6hieQZRL8thNKtg5eGybWR",
+    "android_key": "6hieQZRL8thNKtg5eGybWR",
+    "active": true,
+    "ios_app_Id": "id6748349678",
+    "android_app_Id": "world.dreamsim.testapp"
+  },
+  "DevToDev": {
+    "ios_key": "2df6d5e0-7014-024c-a40e-b44ac98a280d",
+    "android_key": "df4202db-9522-0c18-a5d2-d98ba32380dd",
+    "active": true,
+    "LOGLevel": 1
+  },
+  "AppLovin": {
+    "ios_key": "74c8c4d39eba80f8",
+    "android_key": "f58073d78e5452f2",
+    "advertisementSdk": "W47BZfBHkBLCrKFZLmLMX2HpZ_i6hy3L3De3lkVDQpPcbno9803a4TG6eHPoPfEcw33Bh46uByQJr5Wr7AykhR",
+    "active": true
+  },
+  "FacebookSdk": {
+    "AppLabel": "Playbox test",
+    "AppID": "1053228363637623",
+    "ClientToken": "49ec5735e2cd828ba557d417e9327647",
+    "active": true
+  },
+  "IAP": {
+    "UseCustomInApp": true,
+    "active": true
+  }
+}
