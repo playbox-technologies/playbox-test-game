@@ -17,7 +17,7 @@
     "com.unity.render-pipelines.universal": "17.1.0",
     "com.unity.timeline": "1.8.7",
     "com.unity.ugui": "2.0.0",
-    "playbox": "https://github.com/playbox-technologies/playbox-sdk.git",
+    "playbox": "https://github.com/playbox-technologies/playbox-sdk.git#dev_validator",
     "playbox-installer": "https://github.com/playbox-technologies/playbox-installer.git#main",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
